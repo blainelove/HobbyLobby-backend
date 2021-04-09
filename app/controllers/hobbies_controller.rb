@@ -10,7 +10,7 @@ class HobbiesController < ApplicationController
     end
 
     def create
-        @Hobby = Hobby.create(hobby_params)
+        @hobby = Hobby.create(hobby_params)
         render json: @hobby
     end
 
