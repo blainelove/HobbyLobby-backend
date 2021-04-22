@@ -25,6 +25,9 @@ class FavoritesController < ApplicationController
         @favorite.destroy
         render json: @favorite
     end 
+
+   
+
     
     private
 
